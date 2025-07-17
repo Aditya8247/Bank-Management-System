@@ -6,7 +6,7 @@ from datetime import datetime
 db = mysql.connector.connect(
     host="localhost",  # or your server host
     user="root",  # your username
-    password="Aditya@2002",  # Replace with your MySQL password
+    password="******",  # Replace with your MySQL password
     database="bankdb"
 )
 cursor = db.cursor()
@@ -132,11 +132,6 @@ def withdraw():
             return
         else:
             return
-
-
-
-
-
 
 
 

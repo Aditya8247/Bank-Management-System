@@ -1,2 +1,25 @@
-# Bank-Management-System
-This is a command-line based banking application that allows users to create accounts, log in securely using passwords, and perform basic banking operations like checking balance, depositing, and withdrawing money. All user data is stored in a MySQL database, and the system includes input validation and password verification for security.
+# 🏦 Bank Management System (Python + MySQL)
+
+A simple command-line banking system that allows users to create accounts, deposit money, withdraw funds, and check balances — with data securely stored in a MySQL database.
+
+---
+
+## 📌 Features
+
+- Create a new account with name, DOB, and password
+- Secure login with password verification (3 attempts)
+- Deposit and withdraw money with validation
+- Check account balance
+- Password retry mechanism and account validation
+- User-friendly messages and feedback
+
+---
+
+## 🛠 Tech Stack
+
+- **Language:** Python 3
+- **Database:** MySQL
+- **Libraries:** `mysql-connector-python`, `datetime`, `time`
+
+
+
